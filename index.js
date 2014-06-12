@@ -1,9 +1,9 @@
-var transformer = require('dat-transformer');
-var tIsoDate = transformer('iso-date');
-var tJsDate = transformer('js-date');
+var Conversion = require('transformer-conversion');
+var tIsoDate = require('transformer.iso-date');
+var tJsDate = require('transformer.js-date');
 // require any other modules you may need here.
 
-module.exports = transformer.Conversion(tIsoDate, tJsDate, convert);
+module.exports = Conversion(tIsoDate, tJsDate, convert);
 
 // this is a synchronous conversion.
 function convert(isoDate) {

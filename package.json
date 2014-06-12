@@ -1,6 +1,6 @@
 {
   "name": "transformer.iso-date-to-js-date",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: iso-date to js-date",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,9 +12,10 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "dat-transformer": "~0.1.5",
-    "transformer.js-date": "0.0.1",
-    "transformer.iso-date": "0.0.1"
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
+    "transformer.iso-date": "0.0.1",
+    "transformer.js-date": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
